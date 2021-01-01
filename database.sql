@@ -1,0 +1,8 @@
+CREATE DATABASE todo_list;
+
+CREATE TABLE todos (
+	id SERIAL PRIMARY KEY,
+	title VARCHAR(255) NOT NULL,
+	description VARCHAR(4096) NOT NULL,
+	status VARCHAR(50),
+);
